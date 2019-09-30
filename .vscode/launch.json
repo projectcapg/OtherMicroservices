@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProjectCodeModuleApplication",
+            "request": "launch",
+            "mainClass": "com.cg.pcm.ProjectCodeModuleApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EmployeeCodeApplication<EmployeeCode>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cg.EmployeeCodeApplication",
+            "projectName": "EmployeeCode",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjectCodeModuleApplication<ProjectCode>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cg.pcm.ProjectCodeModuleApplication",
+            "projectName": "ProjectCode",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EmsApplication<Ems>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cg.ems.EmsApplication",
+            "projectName": "Ems",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<claim>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cg.ecm.DemoApplication",
+            "projectName": "claim",
+            "args": ""
+        }
+    ]
+}
